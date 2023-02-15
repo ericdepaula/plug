@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext);
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*BOTÃO DO WHATS*/
+
+
+.whatsapp-link{
+			position: fixed;
+			width: 60px;
+			height: 60px;
+			bottom: 40px;
+			right: 40px;
+			background-color: #25d366; 
+			color: #fff;
+			border-radius: 50px;
+			text-align: center;
+			font-size: 30px;
+			box-shadow: 1px 1px 2px #888;
+			z-index: 1000;
+
+		}
+
+		.fa-whatsapp{
+			margin-top: 16px;
+		}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*ALERTA*/
+
+#alerta{
+	background-color: cyan;
+	padding: 4px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*N SEI O Q O PINTO FEZ AQUI*/
+
+
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+.nav {
+	display:flex;
+	margin: 0 auto;
+	background: white;
+	box-shadow:0 3px 15px rgba(0,0,0,.15);
+}
+
+.nav::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.nav .ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	position: relative;
+}
+
+nav ul li a {
+	color: black;
+	text-decoration: none;
+	padding: 1rem 2rem;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	transition: all .4s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+	color:#FF00FF;
+	background:white;
+}
+
+nav ul li a:focus {
+	color: white;
+}
