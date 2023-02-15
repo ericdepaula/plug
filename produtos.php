@@ -72,7 +72,7 @@
 			echo '
 			<div id="conteudo" class="col-sm-3">
 			<div class="thumbnail">
-        <a href="https://wa.me/5513981216330?text=Olá%20me%20chamo%20'.$_SESSION['UsuarioNome'].'%20e%20tenho%20interesse%20neste%20produto:%20'. $row['nome_produto'].'%20" target="_blank">
+        <a href="https://wa.me/5513981215205?text=Olá%20me%20chamo%20'.$_SESSION['UsuarioNome'].'%20e%20tenho%20interesse%20neste%20produto:%20'. $row['nome_produto'].'%20" target="_blank">
           <img src="'. $row['caminho'] . $row['foto'] .'" style="width:65%">
           <div class="caption">
             <h4 class="text-center">'. $row['nome_produto'] .'</h4>
@@ -82,7 +82,7 @@
         </a>
       <!--BOTÃO COMPRAR--> 
         <div class="text-center">
-        	<a href="https://wa.me/5513981216330?text=Olá%20me%20chamo%20'.$_SESSION['UsuarioNome'].'%20e%20tenho%20interesse%20neste%20produto:%20'. $row['nome_produto'].'%20" target="_blank">
+        	<a href="https://wa.me/5513981215205?text=Olá%20me%20chamo%20'.$_SESSION['UsuarioNome'].'%20e%20tenho%20interesse%20neste%20produto:%20'. $row['nome_produto'].'%20" target="_blank">
         	<input type="button" value="Comprar" id="but">
     		</a>
     	</div>
