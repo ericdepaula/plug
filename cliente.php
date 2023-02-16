@@ -47,7 +47,7 @@
 
   <nav id="nav" class="navbar navbar-expand-lg ">
         <span class="navbar-toggler-icon"></span>
-      <?php echo "Welcome <br>".$_SESSION['UsuarioNome'];?>
+          <?php echo "Welcome <br>".$_SESSION['UsuarioNome'];?>
       <div class="collapse navbar-collapse" id="nav">
         <ul class="nav nav-tabs justify-content-center">
           <li>
